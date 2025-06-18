@@ -17,6 +17,10 @@ A robust C library for ESP8266 WiFi module communication with integrated MQTT su
 - STM32 microcontroller with HAL library
 - ESP8266 WiFi module with AT firmware v2.2.0.0 or compatible
 
+### ESP8266 Firmware
+This library requires ESP8266 modules with AT firmware. If your module doesn't have AT firmware or needs updating:
+- **Custom AT Firmware**: For updated AT binaries and flashing instructions, visit the [ESP-AT Binaries Repository](https://github.com/CytronTechnologies/esp-at-binaries/tree/main)
+
 ## 🛠️ Installation
 
 1. Clone the repository:
@@ -158,3 +162,4 @@ your_project/
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
